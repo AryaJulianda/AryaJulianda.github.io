@@ -1,0 +1,102 @@
+html , body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:arial sans-serif;
+    text-align:center;
+    background-color: #e3f6f5 ;
+}
+
+h1{
+    background-color:#ffd803;
+    display:inline-block;
+    padding:15px;
+    border: 2px solid #272343;
+    border-radius: 3px;
+    box-shadow: 5px 5px black;    
+}
+
+.container{
+    position:relative;
+    width:70%;
+    margin:20px auto;
+    display: grid;
+    grid-template-rows:auto;
+    align-items:center;
+    justify-items:center;
+    border:3px #272343 solid;
+    border-radius: 5px;
+    box-shadow: 8px 8px black;
+}
+
+.comp-area{
+    height:200px;
+    width: 100%;
+    border-bottom:3px #272343 solid;  
+    background-color:#ffd803; 
+}
+
+.player-area{
+    height:200px;
+    background-color:#ffd803;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    align-items: center;
+    padding-top:20px ;
+}
+
+.comp-area{
+    display: grid;
+    padding-bottom: 20px;
+    justify-items:center;
+    align-items: center;
+}
+
+.hasil{
+    padding: 10px 15px;
+    width: 150px;
+    height: 35px;
+    font-size:30px;
+    position:absolute;
+    color:white;
+    background-color: #272343;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.player-area .batu{
+    width:100px;
+    height:100px;
+    background-image: url('img/batu.jpg');
+    background-size: cover;
+}
+
+.player-area .gunting{
+    width:100px;
+    height:100px;
+    background-image: url('img/gunting.jpg');
+    background-size: cover;
+}
+
+.player-area .kertas{
+    width:100px;
+    height:100px;
+    background-image: url('img/kertas.jpg');
+    background-size: cover;
+}
+
+.comp-area .computer{
+    width:100px;
+    height:100px;
+    background-color: black;
+    background-size: cover;
+}
+
+.icon{
+    box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+}
